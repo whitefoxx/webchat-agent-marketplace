@@ -51,3 +51,18 @@ adapter you MUST rotate its `sha256` (and any changed `description`/`access`/
 `domain`) in `index.json` — the install path enforces the hash, so a mismatch is
 refused. (The source-lint invariants + index-regen tooling live in the
 [web-agent](https://github.com/whitefoxx/web-agent) repo's history.)
+
+## Licence & attribution
+
+[Apache-2.0](LICENSE) — see [NOTICE](NOTICE).
+
+This catalog is a **derivative of [opencli](https://github.com/jackwener/opencli)**
+(Apache-2.0). Every adapter targets opencli's `cli({…})` format and imports its
+registry and error types; the entries were originally harvested from that
+project's `clis/` directory and have since been modified — bundled to stand
+alone, corrected against live sites, extended, and in places rewritten. They are
+hand-maintained here and deliberately not kept in sync with upstream, so a bug
+in one of them is ours: report it here, not to opencli.
+
+The repo previously carried no licence at all, which meant default copyright on
+Apache-2.0-derived code — fixed 2026-09-07.

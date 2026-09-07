@@ -1,0 +1,25 @@
+web-agent-marketplace
+Copyright 2026 Yunbiao Cheng
+
+This catalog is derived from opencli (https://github.com/jackwener/opencli),
+Copyright the opencli authors, licensed under the Apache License, Version 2.0.
+
+Every adapter here targets opencli's `cli({…})` command format and imports its
+registry and error types (`@jackwener/opencli/registry`,
+`@jackwener/opencli/errors`). The entries were originally harvested from that
+project's `clis/` directory and have since been MODIFIED: bundled so each file
+stands alone (relative imports inlined), corrected against live sites, extended
+with commands that were not in the upstream, and in some cases rewritten. They
+are maintained here by hand and are not kept in sync with upstream, so any
+defect in them is ours and should be reported here rather than to opencli.
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use
+these files except in compliance with the License. You may obtain a copy of the
+License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed
+under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+CONDITIONS OF ANY KIND, either express or implied. See the License for the
+specific language governing permissions and limitations under the License.
